@@ -4,7 +4,7 @@
  * File:   main.cpp
  * Author: danak
  * Created on January 6, 2023, 2:08 PM
- * Purpose: Template to be used for all future hw,lavs, exams, projects
+ * Purpose: Template to be used for all future hw,labs, exams, projects
  * 
  */
 //System Lib
@@ -16,6 +16,7 @@ using namespace std;
 //User LIBRARIES
  
  //Global Constants not Variables
+
 //Science, Math, Conversions, Dimensions
 
 //Function Prototypes
