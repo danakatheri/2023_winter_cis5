@@ -4,7 +4,7 @@
  * File:   main.cpp
  * Author: danak
  * Created on January 6, 2023, 2:08 PM
- * Purpose: Template to be used for all future hw,lavs, exams, projects
+ * Purpose: Chapter 2 examples test
  * 
  */
 //System Lib
