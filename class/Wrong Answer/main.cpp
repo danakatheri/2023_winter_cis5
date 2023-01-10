@@ -26,22 +26,18 @@ int main(int argc, char** argv) {
      //Set random number seed
     
     //Declare Variables
-    float tsale = 95; //total sales in dollars
-    float sttax = .04; // state sales tax
-    float cttax = .02; // county sales tax
-    
+    long x,y,z;
     //Initialize Variables
-    float statep = tsale * sttax; //state sales tax x total sale
-    float cntyp = tsale * cttax; // county sales x total sale
-   
+    x=25000;
+    y=10000;
+            
     //Map/process the Inputs-> Outputs
-    float tprice = tsale + statep + cntyp; //total sales price x stax
+            z=x+y;
     //Display Inputs/Outputs
-    cout << "The total price on a $" <<tsale<< " purchase with ";
-    cout << sttax << " state sales and " << cttax << " county sales ";
-    cout << "is $" <<tprice<< endl;
+            cout <<z<<"="<<x<<"+"<<y<<endl;
     //Clean up memory and files
     
     //Exit the program
     return 0;
 }
+

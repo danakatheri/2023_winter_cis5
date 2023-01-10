@@ -2,7 +2,7 @@
 /* 
  * File:   main.cpp
  * Author: danak
- * Created on January 9, 2023, 1:40 PM
+ * Created on January 9, 2023, 9:13 PM
  * Purpose: Programming Challenges
  * 
  */
@@ -11,22 +11,24 @@
 #include <iostream> //Input Output Library
 
 using namespace std;
+//User LIBRARIES
+ 
+ //Global Constants not Variables
 
+//Science, Math, Conversions, Dimensions
+
+//Function Prototypes
+
+//Execution begins here at main
 
 int main(int argc, char** argv) {
     
-    //Set random number seed
+  
+    int a = 50;
+    int b = 100;
+    int total = a + b;
     
-    //Declare Variables
-    int item;
-    //Initialize Variables
-    
-    //Map/process the Inputs-> Outputs
-    
-    //Display Inputs/Outputs
-    
-    //Clean up memory and files
-    
-    //Exit the program
+    cout << a << "+" << b << "=" << total << endl;
+   
     return 0;
 }
