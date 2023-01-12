@@ -27,6 +27,8 @@ int main(int argc, char** argv) {
     
     milBdgt=7.77e11f;    //Military Budget = 777 Billion   
     fedBdgt=6.272e12f;    //Federal Budget  = 6.272 Trillion
+    
+    mlPrcnt = milBdgt / fedBdgt;
     //Declare Variables
     
     //Initialize Variables
@@ -34,7 +36,8 @@ int main(int argc, char** argv) {
     //Map/process the Inputs-> Outputs
     
     //Display Inputs/Outputs
-    
+    cout<< "The percentage of the military budget as a percentage of the ";
+    cout << "federal budget is "<<mlPrcnt<<endl;
     //Clean up memory and files
     
     //Exit the program
