@@ -43,4 +43,3 @@ int main(int argc, char** argv) {
     //Exit the program
     return 0;
 }
-
