@@ -25,10 +25,10 @@ using namespace std;
 int main(int argc, char** argv) {
     //Set random number seed here when needed
    
-    string a = "";
-    string b = "";
-    string c = "";
-    string d = "";
+    float a = 0;
+    float b = 0;
+    float c = 0;
+    float d = 0;
     cin >> a;
     cin >> b;
     cin >> c;
@@ -39,10 +39,10 @@ int main(int argc, char** argv) {
     //Initialize or input data here
     
     //Display initial conditions, headings here
-    cout<<setw(9)<<a<<fixed<<showpoint<<setprecision(1)<<setw(8)<<a<<".0"<<setprecision(2)<<setw(7)<< a <<".00"<<endl;
-    cout<<noshowpoint<<setprecision(0)<<setw(9)<<b<<fixed<<showpoint<<setprecision(1)<<setw(8)<<b<<".0"<<setprecision(2)<<setw(7)<< b <<".00"<<endl;
-    cout<<noshowpoint<<setprecision(0)<<setw(9)<<c<<fixed<<showpoint<<setprecision(1)<<setw(8)<<c<<".0"<<setprecision(2)<<setw(7)<< c <<".00"<<endl;
-    cout<<noshowpoint<<setprecision(0)<<setw(9)<<d<<fixed<<showpoint<<setprecision(1)<<setw(8)<<d<<".0"<<setprecision(2)<<setw(7)<< d<<".00";
+    cout<<setw(9)<<a<<fixed<<showpoint<<setprecision(1)<<setw(8)<<a<<setprecision(2)<<setw(7)<< a <<endl;
+    cout<<noshowpoint<<setprecision(0)<<setw(9)<<b<<fixed<<showpoint<<setprecision(1)<<setw(8)<<b<<setprecision(2)<<setw(7)<< b <<endl;
+    cout<<noshowpoint<<setprecision(0)<<setw(9)<<c<<fixed<<showpoint<<setprecision(1)<<setw(8)<<c<<setprecision(2)<<setw(7)<< c <<endl;
+    cout<<noshowpoint<<setprecision(0)<<setw(9)<<d<<fixed<<showpoint<<setprecision(1)<<setw(8)<<d<<setprecision(2)<<setw(7)<< d;
     
 
     //Process inputs  - map to outputs here
