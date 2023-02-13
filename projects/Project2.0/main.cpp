@@ -258,7 +258,7 @@ int main(int argc, char** argv) {
     return 0;
     
     //when asked to play again, it ask your target number but ask if you want to play again
-    //starts to total from perivous game sum
+    //starts to total from previous game sum
 }
 
 
